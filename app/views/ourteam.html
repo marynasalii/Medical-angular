@@ -1,0 +1,17 @@
+    <div id="wrapper" ng-controller="MainCtrl">
+        <div class="container white">
+            <h1>our team</h1>
+            <h3>we take care of you</h3>
+            <div id="doctor-wrapper" >
+                <div class="doctor-up" ng-repeat="doctor in doctors">
+                    <img ng-src={{doctor.img}} alt="doc1" />
+                    <div class="doctor-desc">
+                        <h3 class="white">{{doctor.name}}</h3>
+                        <p>{{doctor.description}}</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            </div>
+        
